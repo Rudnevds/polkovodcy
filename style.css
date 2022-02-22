@@ -1,0 +1,166 @@
+body {
+    margin:0; 
+    }
+    span.c1 {
+    display:none; 
+    }
+    h1 {
+    background:url("./img/polkovodcy.png") repeat-x; 
+    height:450px; 
+    margin:0; 
+    animation: rainbow 14s infinite;
+    }
+
+    @keyframes rainbow {
+        0%{
+            background:url("./img/polkovodcy.png")
+            
+        }
+
+        25% {
+            background:url("./img/1.jpg")
+        }
+
+        50% {
+            background:url("./img/2.jpg")
+        }
+
+        75% {
+            background:url("./img/3.jpg")
+        }
+        
+       
+
+    }
+
+
+    .img-h{
+     margin-left: 25%; 
+    padding : 0 0 3px 11px; 
+    }
+
+    .img-h:hover {
+        transform: scale(1.1);
+    }
+     
+
+    .left{
+    background-color:#D9D6CE; 
+    }
+    #content{
+    background-color:#fff;
+    padding : 0 0 20px 0; 
+    }
+    .sub_content{
+    background-color:#96968B; 
+    }
+    #footer{
+    background-color:#475651; 
+    margin:0;padding:0 0 10px 0; 
+    border-top:1px solid #C4C7CE; 
+    text-align:center; 
+    }
+
+
+    p.c2 {
+        font:14px verdana, helvetica, sans-serif;color:#EBEBE9; /* Цвет и размер текста в правой ячейке */
+        padding : 0 7px 0 7px ; line-height:1.5; 
+        text-align: center;/* отступ текста и межстрочный интервал в правой ячейке */
+        }
+        
+        #content p { /* - Свойства шрифта в центральной ячейке - */
+        font:20px verdana, helvetica, sans-serif;color:#333;
+        padding : 0 11px 0 11px; line-height:1.5;
+        text-align:justify; /* - выравнивание текста по ширине - */
+        }
+        
+        #footer p { /* - Свойства шрифта в нижней ячейке - */
+        font:10px verdana, arial, helvetica, sans-serif;
+        color:#7B8880;
+        padding:5px 0 0 0;
+        }
+        
+        #footer a { /* - Свойства ссылок в центральной ячейке - */
+        font:10px verdana, arial, helvetica, sans-serif;
+        color:#7B8880;
+        }
+        
+        h3{
+        color:#88A299; /* - Цвет и размер заголовка в центральной ячейке - */
+        font:28px Times New Roman, verdana, arial, helvetica, sans-serif;
+        font-weight:900; /* - насыщенность шрифта - */
+        margin: 5px 0 5px 10px; /* - отступ текста сверху, справа и слева - */
+        }
+
+        h3:hover {
+            text-shadow: 0 0 10px #06f9fb, 0 0 30px #06f9fb, 0 0 80px #06f9fb;
+        }
+        
+        h4 {
+        color:#DBD6C4;
+        font:20px Times New Roman, verdana, arial, helvetica, sans-serif;
+        font-weight:900;
+        margin: 5px 0 5px 10px;
+        text-align: center;
+        }
+        
+        h5 {
+        color:#96968B;
+        font:20px Times New Roman, verdana, arial, helvetica, sans-serif;
+        font-weight:900;
+        margin: 5px 0 5px 10px;
+        }
+        
+        
+        /* - Навигация - */
+        
+        .menu {
+        list-style-type:none; /* - убираем маркеры - */
+        margin:0;
+        padding:0;
+        }
+        
+        .menu li a {
+        color:#8D866D; /* - Цвет текста - */
+        font:12px verdana, arial, helvetica, sans-serif;
+        font-weight:900;
+        display:block; /* - Элемент показывается как блочный - */
+        width:86%; /* - Ширина - */
+        margin-left:13px; /* - Отступ слева- */
+        border-bottom:dotted 1px #96968B; /* - Цвет границы снизу - */
+        text-decoration:none; /* - Убрали подчеркивание - */
+        padding:3px; /* - Отступ в три пикселя - */
+        }
+        
+        .menu li a:visited { /* - Посещенная ссылка - */
+        color:#8D866D;
+        font:12px verdana, arial, helvetica, sans-serif;
+        font-weight:900;
+        }
+        
+        .menu li a:hover,.menu li a:active {
+        color:#3F4B47; /* - Цвет ссылок при наведении курсора - */
+        font:12px verdana, arial, helvetica, sans-serif;
+        font-weight:900;
+        background-color:#CDC9BE; /* - Цвет фона при наведении курсора - */
+        }
+
+        .img-h1{
+            float : left; /* - картинка справа - */
+padding-right : 25px; /* - отступ от картинки слева и снизу- */
+        }
+
+        .img-h1:hover{
+            transform: scale(1.1);
+        }
+
+        .img-h2{
+            float : right; /* - картинка справа - */
+padding-left : 25px; /* - отступ от картинки слева и снизу- */ 
+        }
+
+
+        .img-h2:hover{
+            transform: scale(1.1);
+        }
+    
